@@ -10,6 +10,6 @@ public class MainChild {
         Thread t = new Thread(new Child());
         t.start();
         System.out.println("Within main thread");
-        System.out.println("Exiting from main thread");
+        System.out.println("Exiting from main thread.");
     }
 }
